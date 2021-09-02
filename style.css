@@ -3,7 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
     
-color: rebeccapurple;
+color:black;
 }
 body {
     width:100vw ;
@@ -19,7 +19,9 @@ body {
     align-items: center;
 }
 p{ 
-    background-color: royalblue;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+
     
 }
 .verde{
@@ -28,14 +30,34 @@ p{
 h2 {
     background-color: tomato;
 } main{
-    background-color: black;
+    background-color: none;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 10px;
 } 
-h1{
+h1{ 
     color: white;
-  font-size: 100px;
+  font-size: clamp(40px,10vw,120px);
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 40px;
+} .apresentação
+{
+    color: rgb(255, 255, 255);
+    font-size: clamp(20px,5vw,60px);
+    font-family:'Montserrat', sans-serif;;
+    font-weight: 400;
+    font-style: italic;
+
+} .informação{
+
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: yellow;
+    border-style: none;
+    border-radius: 10px;
 }
+    
